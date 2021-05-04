@@ -1,10 +1,10 @@
 import React from 'react'
 
-function DeveloperBio() {
+function DeveloperBio(props) {
     return (
         <div className="card d-inline-block text-dark">
             <div className="card-body">
-                <h5 className="card-title">Karthik Palanivelu</h5>
+                <h3 className="card-title">{props.title}</h3>
                 <p className="card-text">
                     <span className="bold">Favorite Language :</span> Java
                 </p>

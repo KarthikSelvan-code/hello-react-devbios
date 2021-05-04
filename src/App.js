@@ -18,7 +18,7 @@ function App() {
         >
           Learn React
         </a>
-        <DeveloperBio/>
+        <DeveloperBio title="Karthik Palanivel's Bio"/>
       </header>
     </div>
   );
